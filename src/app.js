@@ -1,11 +1,6 @@
 console.log('Hello world');
 
 function checkNames(names) {
-    names.forEach(name => {
-        if(name.indexOf('x') != -1) {
-            names.pop(name);
-        }
-    });
-    return names;
+    return names.filter(name => name.indexOf('x') == -1); 
 }
 module.exports = checkNames;
