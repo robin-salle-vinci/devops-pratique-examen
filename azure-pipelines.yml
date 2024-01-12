@@ -34,10 +34,10 @@ steps:
 
     - script: npm run build
       displayName: 'npm run build'
-      
+
     - task: AzureStaticWebApp@0
       inputs:
-        output_location: '/dist'
-        skip_app_build: true
-        skip_api_build: true
-        azure_static_web_apps_api_token: '256d22943ea7a9e4507ec41609e202eeb5782899a145cb0884b26ea2aa18c8a24-52a9463e-f44c-47a9-8421-d2d06d845b0c003345844'
+          output_location: '/dist'
+          skip_app_build: true
+          skip_api_build: true
+          azure_static_web_apps_api_token: '256d22943ea7a9e4507ec41609e202eeb5782899a145cb0884b26ea2aa18c8a24-52a9463e-f44c-47a9-8421-d2d06d845b0c003345844'
