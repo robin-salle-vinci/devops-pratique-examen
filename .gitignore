@@ -7,3 +7,6 @@ package-lock.json
 # ignore the development environment variables (if any)
 .env
 README.md
+
+#coverage
+coverage
