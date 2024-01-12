@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "nodemon ./src/app.js",
-        "test": "jest --coverage",
+        "test": "jest --coverage ./src/app.test.js",
         "list": "ls -la",
         "commit": "cz",
         "prettier": "prettier --check .",
