@@ -24,18 +24,14 @@ steps:
           npm run build
       displayName: 'npm install and build'
 
-    - script: |
-          npm run prettier
+    - script: npm run prettier
       displayName: 'npm prettier'
 
-    - script: |
-          npm run lint
+    - script: npm run lint
       displayName: 'npm lint'
 
-    - script: |
-          npm test
+    - script: npm test
       displayName: 'npm test'
 
-    - script: |
-          npm run build
+    - script: npm run build
       displayName: 'npm run build'
