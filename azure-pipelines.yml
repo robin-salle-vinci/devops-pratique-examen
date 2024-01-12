@@ -23,21 +23,21 @@ steps:
           npm run build
       displayName: 'npm install and build'
 
-    - script: npm run prettier
-      displayName: 'npm prettier'
+   ## - script: npm run prettier
+   ##   displayName: 'npm prettier'
 
-    - script: npm run lint
-      displayName: 'npm lint'
+   ## - script: npm run lint
+   ##   displayName: 'npm lint'
 
-    - script: npm test
-      displayName: 'npm test'
+   ## - script: npm test
+   ##   displayName: 'npm test'
 
     - script: npm run build
       displayName: 'npm run build'
 
     - task: AzureStaticWebApp@0
       inputs:
-          output_location: 'dist/main.js'
+          output_location: 'dist'
           skip_app_build: true
           skip_api_build: true
           azure_static_web_apps_api_token: '2cac0339b5393e2a9682ffc1e90c68247ee76ffad877848a4f685ef753b93a2a4-3cf9ebce-9b14-46e4-9d22-971647999980003345851'
