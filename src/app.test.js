@@ -12,7 +12,7 @@ test("la méthode checkNames reçoit un tableau contenant JC, Leo et xena,  et r
     expect(checkNames(['JC', 'Leo', 'xena'] )).toEqual(['JC','Leo']);
 });
 
-test("la méthode checkNames reçoit un tableau contenant DMX, Xzibit et JeanKevin,  et renvoie un tableau contenant JeanKevin", () => {
+test("La méthode checkNames reçoit un tableau contenant DMX, Xzibit et JeanKevin,  et renvoie un tableau contenant JeanKevin", () => {
     expect(checkNames(['DMX', 'Xzibit', 'JeanKevin'] )).toEqual(['JeanKevin']);
 });
 
