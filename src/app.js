@@ -1,5 +1,6 @@
-function sum(a, b) {
-    return a + b;
-  }
-  
-module.exports = sum;
+console.log('Hello world');
+
+function checkNames(names) {
+    return names;
+}
+module.exports = checkNames;

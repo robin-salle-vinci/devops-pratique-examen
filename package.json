@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "nodemon ./src/app.js",
+    "test": "jest --watch",
+    "list": "ls -la"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.2"
   }
 }
