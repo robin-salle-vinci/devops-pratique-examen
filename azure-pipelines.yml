@@ -40,4 +40,4 @@ steps:
           output_location: 'dist'
           skip_app_build: true
           skip_api_build: true
-          azure_static_web_apps_api_token: '256d22943ea7a9e4507ec41609e202eeb5782899a145cb0884b26ea2aa18c8a24-52a9463e-f44c-47a9-8421-d2d06d845b0c003345844'
+          azure_static_web_apps_api_token: '2cac0339b5393e2a9682ffc1e90c68247ee76ffad877848a4f685ef753b93a2a4-3cf9ebce-9b14-46e4-9d22-971647999980003345851'
