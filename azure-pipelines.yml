@@ -5,9 +5,9 @@
 
 trigger: none
 
-pr:
-    branches:
-        include: [main]
+##pr:
+##    branches:
+##        include: [main]
 
 pool:
     vmImage: ubuntu-latest
@@ -20,7 +20,6 @@ steps:
 
     - script: |
           npm install
-          npm run build
       displayName: 'npm install and build'
 
    ## - script: npm run prettier
