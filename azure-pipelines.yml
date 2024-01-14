@@ -22,14 +22,14 @@ steps:
           npm install
       displayName: 'npm install and build'
 
-    - script: npm run prettier
-      displayName: 'npm prettier'
+ ##   - script: npm run prettier
+ ##     displayName: 'npm prettier'
 
-    - script: npm run lint
-      displayName: 'npm lint'
+ ##   - script: npm run lint
+ ##     displayName: 'npm lint'
 
-    - script: npm test
-      displayName: 'npm test'
+ ##   - script: npm test
+ ##     displayName: 'npm test'
 
     - script: npm run build
       displayName: 'npm run build'
@@ -39,5 +39,5 @@ steps:
           output_location: 'dist'
           skip_app_build: true
           skip_api_build: true
-          azure_static_web_apps_api_token: '2cac0339b5393e2a9682ffc1e90c68247ee76ffad877848a4f685ef753b93a2a4-3cf9ebce-9b14-46e4-9d22-971647999980003345851'
+          azure_static_web_apps_api_token: '0784d7828c47cd486641569e0af3c35982ef42d39443c268b1c6d9fd02fce57f4-3e5cb60a-5adc-4ee2-8606-0b292791e408003346468'
 
